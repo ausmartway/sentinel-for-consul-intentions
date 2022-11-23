@@ -1,0 +1,10 @@
+{
+    "global":{
+    },
+    "mock": {
+        "tfplan/v2": "../../mocks/mock-allow-all-tfplan-v2.sentinel"
+    },
+    "test": {
+        "main": false
+    }
+}
