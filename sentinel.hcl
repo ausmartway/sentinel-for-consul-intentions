@@ -17,7 +17,7 @@ module "tfrun-functions" {
 }
 
 policy "disallow-wildcard-allow-intentions" {
-  source = "disallow-wildcard-allow-intentions.sentinel"
+  source = "https://raw.githubusercontent.com/ausmartway/sentinel-for-consul-intentions/main/disallow-wildcard-allow-intentions.sentinel"
     enforcement_level = "advisory"
 }
 
